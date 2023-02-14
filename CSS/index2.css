@@ -422,27 +422,38 @@ header{
     color: white;
 }
 .product_frame{
+    width: 100%;
     padding: 15px 10px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-self: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    columns: 3;
+    column-gap: 15px;
+}
+.PH-390{
+    height: 390px;
+}
+.PH-650{
+    height: 650px;
 }
 .product_item{
-    width: 30%;
-    margin: 15px;
+    /* width: 30%;  */
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px;
+    overflow: hidden;
 }
 .product_item_img img{
     width: 100%;
-    height: auto;
     object-fit: cover;
 }
 .product_item_text{
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 0px;
 }
 .PIT_name{
-    width: 100%;
+    /* width: 100%; */
     color: #F5833E;
     display: flex;
     justify-content: space-between;
